@@ -1,36 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Expense Tracker
 
-## Getting Started
+A simple personal finance dashboard built with **Next.js**, **TypeScript**, and **Tailwind CSS**.
+The application provides a clear overview of income, expenses, savings, and recent transactions through a clean dashboard interface.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+* Dashboard overview with summary cards
+* Expense and category charts
+* Transaction table
+* Sidebar navigation between pages
+* Responsive layout
+
+## Tech Stack
+
+* Next.js
+* TypeScript
+* Tailwind CSS
+* React
+* Recharts (for charts)
+
+## Pages
+
+* **Dashboard** – overview of balance, income, expenses, and charts
+* **Transactions** – list of recorded transactions
+* **Budgets** – budgeting overview
+* **Reports** – visual reports and insights
+* **Settings** – user configuration page
+
+## Project Structure
+
+```
+src
+ ├─ app
+ │   ├─ dashboard
+ │   ├─ transactions
+ │   ├─ budgets
+ │   ├─ reports
+ │   └─ settings
+ │
+ ├─ components
+ │   ├─ Sidebar
+ │   ├─ SummaryCard
+ │   ├─ TransactionTable
+ │   ├─ ExpenseChart
+ │   └─ ExpensePieChart
+ │
+ └─ data
+     └─ transactions.ts
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Clone the repository:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+git clone https://github.com/YOUR-USERNAME/personal-expense-tracker.git
+```
 
-## Learn More
+Navigate into the project folder:
 
-To learn more about Next.js, take a look at the following resources:
+```
+cd personal-expense-tracker
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Install dependencies:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+npm install
+```
 
-## Deploy on Vercel
+Run the development server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Open your browser and visit:
+
+```
+http://localhost:3000
+```
+
+## Purpose
+
+This project was built as a **frontend portfolio project** to demonstrate:
+
+* Building applications with Next.js
+* Styling with Tailwind CSS
+* Using TypeScript in a React environment
+* Structuring reusable components
+* Creating dashboard-style user interfaces
+
+## Future Improvements
+
+* Add transaction form
+* Persistent storage (localStorage or database)
+* Authentication
+* API integration
+* Mobile optimization
+
+## License
+
+This project is for educational and portfolio purposes.
+
