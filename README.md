@@ -106,3 +106,8 @@ This project was built as a **frontend portfolio project** to demonstrate:
 
 This project is for educational and portfolio purposes.
 
+---
+
+## 👩🏽‍💻 Author
+Annah Molekoa  
+Frontend Developer
