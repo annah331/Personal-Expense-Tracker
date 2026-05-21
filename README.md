@@ -1,113 +1,83 @@
-# Personal Expense Tracker
+# 💰 Personal Expense Tracker
 
-A simple personal finance dashboard built with **Next.js**, **TypeScript**, and **Tailwind CSS**.
-The application provides a clear overview of income, expenses, savings, and recent transactions through a clean dashboard interface.
-
-## Features
-
-* Dashboard overview with summary cards
-* Expense and category charts
-* Transaction table
-* Sidebar navigation between pages
-* Responsive layout
-
-## Tech Stack
-
-* Next.js
-* TypeScript
-* Tailwind CSS
-* React
-* Recharts (for charts)
-
-## Pages
-
-* **Dashboard** – overview of balance, income, expenses, and charts
-* **Transactions** – list of recorded transactions
-* **Budgets** – budgeting overview
-* **Reports** – visual reports and insights
-* **Settings** – user configuration page
-
-## Project Structure
-
-```
-src
- ├─ app
- │   ├─ dashboard
- │   ├─ transactions
- │   ├─ budgets
- │   ├─ reports
- │   └─ settings
- │
- ├─ components
- │   ├─ Sidebar
- │   ├─ SummaryCard
- │   ├─ TransactionTable
- │   ├─ ExpenseChart
- │   └─ ExpensePieChart
- │
- └─ data
-     └─ transactions.ts
-```
-
-## Live link:
-[https://personal-expense-tracker-rho-five.vercel.app/](https://personal-expense-tracker-rho-five.vercel.app/)
-
-## Installation
-
-Clone the repository:
-
-```
-git clone https://github.com/YOUR-USERNAME/personal-expense-tracker.git
-```
-
-Navigate into the project folder:
-
-```
-cd personal-expense-tracker
-```
-
-Install dependencies:
-
-```
-npm install
-```
-
-Run the development server:
-
-```
-npm run dev
-```
-
-Open your browser and visit:
-
-```
-http://localhost:3000
-```
-
-## Purpose
-
-This project was built as a **frontend portfolio project** to demonstrate:
-
-* Building applications with Next.js
-* Styling with Tailwind CSS
-* Using TypeScript in a React environment
-* Structuring reusable components
-* Creating dashboard-style user interfaces
-
-## Future Improvements
-
-* Add transaction form
-* Persistent storage (localStorage or database)
-* Authentication
-* API integration
-* Mobile optimization
-
-## License
-
-This project is for educational and portfolio purposes.
+A modern, responsive personal finance dashboard built with **Next.js**, **TypeScript**, and **Tailwind CSS**.  
+This project helps users track income, expenses, and savings in a clean and interactive UI.
 
 ---
 
-## 👩🏽‍💻 Author
-Annah Molekoa  
-Frontend Developer
+## 🚀 Live Demo
+[https://personal-expense-tracker-rho-five.vercel.app/](https://personal-expense-tracker-rho-five.vercel.app/)
+
+---
+
+## ✨ Features
+
+- 📊 Dashboard with balance, income, expenses, and savings overview  
+- ➕ Add / delete transactions in real time  
+- 📂 Category-based transaction tracking  
+- 📉 Interactive charts (Income vs Expenses + Expense breakdown)  
+- 📱 Fully responsive mobile-friendly UI  
+- 🧠 Savings insight based on budgeting model  
+- 🎨 Soft gradient UI with modern card design  
+- ⚡ Global state management using React Context  
+
+---
+
+## 🛠️ Tech Stack
+
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- React Context API
+- Chart.js
+- React Chart.js 2
+
+---
+
+## 🧠 What I Learned
+
+- Managing global state with Context API  
+- Building responsive layouts with Tailwind CSS  
+- Handling dynamic calculations in React  
+- Debugging hydration and layout issues in Next.js  
+- Working with data visualisation libraries (Chart.js)  
+- Structuring scalable frontend architecture  
+
+---
+
+## 📱 UI Highlights
+
+- Mobile-first responsive design  
+- Sidebar navigation with drawer for small screens  
+- Clean dashboard layout with card-based UI  
+- Soft gradient color system for better UX readability  
+
+---
+
+## ⚠️ Notes
+
+- This is a frontend-only project (no backend or authentication)  
+- Data resets on refresh unless extended with local storage or database  
+
+---
+
+## 🚀 Future Improvements
+
+- Add authentication (Firebase / NextAuth)  
+- Persist data using local storage or database  
+- Add budget limits & alerts  
+- Export transactions as CSV  
+- Multi-user support  
+
+---
+
+## 👨‍💻 Author
+
+Built by Annah Molekoa  
+Frontend Developer in training | Passionate about building real-world apps
+
+---
+
+## 📜 License
+
+This project is open source and available for learning purposes.
