@@ -53,7 +53,7 @@ export default function DashboardPage() {
         />
 
         <SummaryCard
-          title="Savings"
+          title="Suggested Savings (20% rule)"
           amount={savings}
           color="bg-gradient-to-br from-violet-200 to-purple-100 text-purple-900"
         />
