@@ -20,8 +20,8 @@ export default function ReportsPage() {
   return (
     <div className="space-y-8">
       {/* HEADER */}
-      <h1 className="text-2xl font-bold">Reports</h1>
-      <p className="text-gray-500 text-sm mt-1">
+      <h1 className="text-2xl font-bold text-gray-800 m-0">Reports</h1>
+      <p className="text-gray-500 text-sm">
         Analyze your spending patterns and financial trends
       </p>
 

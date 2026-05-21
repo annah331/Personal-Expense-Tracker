@@ -26,7 +26,7 @@ export default function Sidebar() {
       </div>
 
       {/* push content down on mobile so top bar doesn't overlap */}
-      <div className="md:hidden h-20" />
+      <div className="md:hidden h-12" />
 
       {/* 📊 DESKTOP SIDEBAR */}
       <aside className="hidden md:flex md:flex-col w-64 min-h-screen bg-gradient-to-b from-teal-600 to-teal-800 text-white p-6">
@@ -52,7 +52,7 @@ export default function Sidebar() {
       {/* 🌑 OVERLAY */}
       {open && (
         <div
-          className="fixed inset-0 bg-black/40 z-40 md:hidden"
+          className="fixed inset-0 bg-black/40 z-40 md:hidden overflow-hidden"
           onClick={() => setOpen(false)}
         />
       )}
@@ -60,7 +60,7 @@ export default function Sidebar() {
       {/* 📱 MOBILE DRAWER */}
       <div
         className={`
-          fixed top-0 left-0 z-50 h-full w-64
+          fixed top-0 left-0 z-50 h-full w-64 max-w-[80vw]
           bg-gradient-to-b from-teal-600 to-teal-800 text-white p-6
           transform transition-transform duration-300 md:hidden
           ${open ? 'translate-x-0' : '-translate-x-full'}

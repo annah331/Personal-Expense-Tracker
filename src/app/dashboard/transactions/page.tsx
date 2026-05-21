@@ -1,7 +1,6 @@
 'use client';
 
 import TransactionTable from '@/components/transactiontable';
-import SummaryCard from '@/components/summarycard';
 
 import { useTransactions } from '@/context/transactionContext';
 
@@ -20,9 +19,9 @@ export default function TransactionsPage() {
     <div className="space-y-8">
       {/* PAGE HEADER */}
       <div>
-        <h1 className="text-2xl font-bold text-gray-800">Transactions</h1>
+        <h1 className="text-2xl font-bold text-gray-800 m-0">Transactions</h1>
 
-        <p className="text-gray-500 text-sm mt-1">
+        <p className="text-gray-500 text-sm">
           View and manage your financial activity
         </p>
       </div>

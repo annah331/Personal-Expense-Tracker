@@ -9,9 +9,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <div className="flex bg-gray-50">
+        <div className="flex flex-col md:flex-row bg-gray-50 min-h-screen overflow-x-hidden">
           <Sidebar />
-          <main className="flex-1 p-4 pt-24 md:pt-8 md:p-8">
+          <main className="flex-1 p-4 pt-16 md:pt-8 md:p-8">
             <TransactionProvider>{children}</TransactionProvider>
           </main>
         </div>

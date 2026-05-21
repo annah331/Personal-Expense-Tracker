@@ -21,11 +21,7 @@ const TransactionContext = createContext<TransactionContextType | undefined>(
 );
 
 export function TransactionProvider({ children }: { children: ReactNode }) {
-  const [transactions, setTransactions] = useState<Transaction[]>([
-    { id: '1', date: '2026-05-01', category: 'Salary', amount: 8000 },
-    { id: '2', date: '2026-05-02', category: 'Food', amount: -500 },
-    { id: '3', date: '2026-05-03', category: 'Transport', amount: -200 },
-  ]);
+  const [transactions, setTransactions] = useState<Transaction[]>([]);
 
   function add(transaction: Transaction) {
     setTransactions((prev) => [transaction, ...prev]);
